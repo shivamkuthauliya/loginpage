@@ -1,0 +1,32 @@
+body{
+    background: #0e2b3d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021120, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1c2f42, #011825); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    text-align: left;
+    padding: 2% 30% 10% 30%;
+    zoom: 0.9;
+}
+
+
+html,body {
+  margin: 0;
+  /* padding: 0; */
+}
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+h1{
+    padding-top:2em ;
+}
+.google-button{
+
+  float: right;
+  margin-right: 1em;
+
+}
